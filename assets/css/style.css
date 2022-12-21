@@ -32,7 +32,7 @@ header h1 {
 }
 
 header img {
-    flex: 0 1 300px;
+    flex: 0 1 100px;
     max-width: 300px;
     max-height: 300px;
     border: 8px solid white;
@@ -49,10 +49,12 @@ body {
     flex-wrap:wrap;
 }
 
-
-nav ul li {
+nav{
     flex-wrap:wrap;
     justify-content: space-between;
+}
+
+nav ul li {
     display:inline;
     margin: 15px;
     font-size: 40px;
@@ -66,3 +68,34 @@ nav ul li a {
     color: #ffffff;
 }  
 
+section {
+    color:var(--white);
+}
+
+section h1 {
+    font-size: 70px;
+}
+
+footer {
+    color:var(--white);
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+footer h2 {
+    font-size: 70px;
+}
+
+footer ul li {
+    display:inline;
+    font-size: 25px;
+    margin: 40px;
+}
+
+footer ul li a {
+    color:var(--white);
+    text-decoration: none;
+}
